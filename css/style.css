@@ -1,0 +1,207 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+.container {
+            border: 2px solid #000;
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 900px;
+        }
+        .header img {
+            max-width: 200px;
+            margin-left: auto;
+
+        }
+        .header, .footer {
+            border-bottom: 2px solid #000;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            border-bottom: none;
+            border-top: 2px solid #000;
+            padding-top: 20px;
+            margin-top: 20px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .subtitle {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .content {
+            margin: 20px 0;
+            text-align: left;
+        }
+        p{
+          text-align: center;
+        }
+        h1{
+          font-family: Arial, sans-serif;
+          text-align: center;
+        }
+
+h2, h3, h5, h6 {
+  font-weight: bold;
+  color: #337ab7;
+}
+h4{
+  font-family: arial;
+
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #337ab7;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav a {
+  color: #fff;
+}
+
+header nav a:hover {
+  color: #ccc;
+}
+
+/* Section Styles */
+
+section {
+  padding: 40px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/* Responsive Design */
+
+/* Smartphone Styles */
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+
+  header {
+    padding: 10px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  section {
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+/* Tablet Styles */
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  body {
+    font-size: 18px;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  section {
+    padding: 30px;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+}
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 901px) {
+  body {
+    font-size: 20px;
+  }
+
+  header {
+    padding: 30px;
+  }
+
+  section {
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+}
